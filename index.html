@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bmi_o.css">
+    <title>Body Mass Index</title>
+</head>
+<body>
+    <h1 class="text-center bg-blue-950 text-white uppercase text-3xl p-3">bmi calculation</h1>
+
+    <main class="w-[70%] m-auto grid grid-cols-[1fr_1fr] gap-3">
+        <section>
+            <ul>
+                <li>
+                    <input type="text" name="weight" id="weight" placeholder="weight in kg" class="my-4 border-4 border-solid border-blue-950 outline-none rounded-md w-full py-2">
+                </li>
+                <li>
+                    <input type="text" name="height" id="height" placeholder="height in cm" class="my-4 border-4 border-solid border-blue-950 outline-none rounded-md w-full py-2">
+                </li>
+                <li>
+                    <button class="w-full bg-blue-950 text-white py-2 rounded-md uppercase hover:text-blue-950 hover:bg-white hover:border-4 hover:border-solid hover:border-blue-950">calculate bmi</button>
+                </li>
+            </ul>
+        </section>
+        <section class="flex flex-col items-start gap-3 text-sm py-4 text-justify">
+
+        </section>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
